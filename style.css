@@ -1,0 +1,87 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    text-decoration: none;
+    font-family: 'Courier New', Courier, monospace;
+}
+body{
+    overflow: hidden;
+}
+
+.container{
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       height: 100vh;
+       width: 100%;
+}
+
+
+.box{
+    background-color: rgb(230, 227, 227);
+    display: flex;
+    flex-direction: column;
+    border-radius: 20px;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+
+    
+}
+.box input{
+     height: 50px;
+     border: none;
+    background-color: rgb(230, 227, 227);
+     font-size: 30px;
+     color:black;
+     font-weight: 900;
+     text-align: right;
+     margin-right: 30px;
+
+}
+
+ .buttons{
+    height: 100vh;
+     width: 100%;
+     padding: 20px;
+     display: flex;
+     flex-wrap: wrap;
+     align-items: center;
+     justify-content: center;
+    }
+
+ .buttons button{
+     width: 80px;
+     height: 80px;
+     padding: 20px;
+     margin: 10px;
+     border: none;
+    }
+   .btn1{
+        padding: 20px;
+        color: white;
+        font-size: 20px;
+        border-radius: 15px;
+        color: black;
+        font-weight: 700;
+        font-size: 30px;
+    }
+    .btn2{
+        color: rgb(237, 173, 95);
+        font-size: 30px;
+        font-weight: 800;
+        border-radius: 20px;
+        font-style: italic;
+
+    }
+
+    .delite{
+        font-size: 25px;
+    }
+    #cal{
+        width: 160px;
+    }
+    h1{
+        text-align: center;
+        color: rgb(237, 173, 95);
+        font-weight: 700;
+        font-style: italic;
+    }
